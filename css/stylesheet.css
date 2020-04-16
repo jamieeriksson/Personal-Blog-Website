@@ -19,9 +19,28 @@
   grid-area: sidebar;
 }
 
-.main {
+.main-content {
   border: 1px solid yellow;
   grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#categories-cont {
+  border: 1px solid black;
+  order: 1;
+}
+
+#blog-card-cont {
+  border: 1px solid black;
+  order: 2;
+}
+
+#change-page-cont {
+  border: 1px solid black;
+  order: 3;
 }
 
 .footer {
