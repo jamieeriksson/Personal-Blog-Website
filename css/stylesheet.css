@@ -3,9 +3,10 @@
   display: grid;
   grid:
     "header header" 250px
-    "sidebar main" auto
+    "main sidebar" auto
     "footer footer" 100px
-    / 100px 1fr;
+    / 1fr 150px;
+  grid-gap: 20px;
 }
 
 .header {
