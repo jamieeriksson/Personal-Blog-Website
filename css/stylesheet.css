@@ -1,8 +1,13 @@
+body {
+  background: #eee8f5;
+  margin: 0;
+}
+
 .page {
-  border: 2px solid red;
+  margin: 0;
   display: grid;
   grid:
-    "header header" 250px
+    "header header" 400px
     "main sidebar" auto
     "footer footer" 100px
     / 1fr 150px;
@@ -10,17 +15,23 @@
 }
 
 .header {
-  border: 1px solid blue;
+  background: #a68d9e;
   grid-area: header;
 }
 
 .sidebar {
-  border: 1px solid orange;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-right: 50px;
+
   grid-area: sidebar;
 }
 
 .main-content {
-  border: 1px solid yellow;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-left: 50px;
+
   grid-area: main;
   display: flex;
   flex-direction: column;
@@ -44,6 +55,6 @@
 }
 
 .footer {
-  border: 1px solid green;
+  background: #a2aca1;
   grid-area: footer;
 }
