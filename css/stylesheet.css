@@ -1,3 +1,6 @@
+@import "./main_content.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
 body {
   background: #eee8f5;
   margin: 0;
@@ -8,7 +11,7 @@ body {
   display: grid;
   grid:
     "header header" 400px
-    "main sidebar" auto
+    "main sidebar" 1fr
     "footer footer" 100px
     / 1fr 150px;
   grid-gap: 20px;
@@ -39,22 +42,28 @@ body {
   align-items: stretch;
 }
 
+.footer {
+  background: #a2aca1;
+  grid-area: footer;
+}
+
 #categories-cont {
-  border: 1px solid black;
   order: 1;
+  /* height: 15%; */
 }
 
 #blog-card-cont {
   border: 1px solid black;
   order: 2;
+  /*height: 75%;*/
 }
 
 #change-page-cont {
   border: 1px solid black;
   order: 3;
+  /* height: 10%; */
 }
 
-.footer {
-  background: #a2aca1;
-  grid-area: footer;
+.labels {
+  font: 1.2rem "DM Sans", sans-serif;
 }
