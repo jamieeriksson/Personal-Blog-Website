@@ -67,3 +67,10 @@ body {
 .labels {
   font: 1.2rem "DM Sans", sans-serif;
 }
+
+#header-logo {
+  width: 95%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
