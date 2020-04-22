@@ -1,5 +1,6 @@
 @import "./main_content.css";
 @import "./header.css";
+@import "./blog-cards.css";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
@@ -28,6 +29,7 @@ body {
   background: #ffffff;
   border-radius: 30px;
   margin-right: 50px;
+  height: 500px;
 
   grid-area: sidebar;
 }
@@ -54,10 +56,13 @@ body {
   /* height: 15%; */
 }
 
-#blog-card-cont {
-  border: 1px solid black;
+#blog-card-container {
   order: 2;
-  /*height: 75%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
 
 #change-page-cont {
