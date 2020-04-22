@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Strait&display=swap");
 
 .blog-card {
   background-color: #e7e7e7;
@@ -43,6 +44,14 @@
   grid-area: 3/2/4/3;
   margin: 0;
   margin-left: 1.7rem;
+}
+
+.cont-reading {
+  text-align: right;
+  font: 1.2rem "Strait", sans-serif;
+  line-height: 1.4em;
+  text-decoration: underline;
+  border-bottom: 2px solid #1a7474;
 }
 
 .blog-date {
