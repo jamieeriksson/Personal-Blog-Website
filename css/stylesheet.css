@@ -66,10 +66,19 @@ body {
   padding: 25px;
 }
 
-#change-page-cont {
-  border: 1px solid black;
+.change-page {
   order: 3;
-  /* height: 10%; */
+  text-align: right;
+  padding-right: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.previous-post {
+  display: inline-block;
+  font: 1.5rem "DM Sans", sans-serif;
+  color: #313131;
+  line-height: 2.5rem;
+  margin-right: 0.3rem;
 }
 
 .labels {
