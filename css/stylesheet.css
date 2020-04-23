@@ -17,8 +17,8 @@ body {
     "header header" auto
     "main sidebar" auto
     "footer footer" auto
-    / 1fr 150px;
-  grid-gap: 20px;
+    / 4fr 1fr;
+  grid-gap: 2em;
 }
 
 .header {
@@ -29,7 +29,7 @@ body {
 .sidebar {
   background: #ffffff;
   border-radius: 30px;
-  margin-right: 50px;
+  margin-right: 10%;
   height: 500px;
 
   grid-area: sidebar;
@@ -38,7 +38,8 @@ body {
 .main-content {
   background: #ffffff;
   border-radius: 30px;
-  margin-left: 50px;
+  max-width: 1150px;
+  justify-self: center;
 
   grid-area: main;
   display: flex;
