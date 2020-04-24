@@ -1,6 +1,5 @@
 @import "./main_content.css";
 @import "./header.css";
-@import "./blog-cards.css";
 @import "./blog-post-page.css";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
@@ -15,32 +14,24 @@ body {
   margin: 0;
   display: grid;
   grid:
-    "header header"auto "main sidebar"auto "footer footer"auto / 4fr 1fr;
+    "header header"auto "main main"auto "footer footer"auto / 4fr 1fr;
   grid-gap: 2em;
 }
 
 .header {
-  background: #a68d9e;
   grid-area: header;
-}
-
-.sidebar {
-  background: #ffffff;
-  border-radius: 30px;
-  margin-right: 1rem;
-  height: 500px;
-
-  grid-area: sidebar;
+  background: #a68d9e;
 }
 
 .main-content {
+  grid-area: main;
+  max-width: 1050px;
+  margin-left: 1rem;
+  margin-right: 1rem;
   background: #ffffff;
   border-radius: 30px;
-  max-width: 1050px;
   justify-self: center;
-  margin-left: 1rem;
 
-  grid-area: main;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,58 +39,27 @@ body {
 }
 
 .footer {
-  background: #a2aca1;
   grid-area: footer;
-}
-
-#categories-cont {
-  order: 1;
-  /* height: 15%; */
-}
-
-#blog-card-container {
-  order: 2;
+  background: #a2aca1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 25px;
-}
-
-.change-page {
-  order: 3;
-  text-align: right;
-  padding-right: 2rem;
-  padding-bottom: 0.5rem;
-}
-
-.previous-post {
-  display: inline-block;
-  font: 1.5rem "DM Sans", sans-serif;
-  color: #313131;
-  line-height: 2.5rem;
-  margin-right: 0.3rem;
 }
 
 .labels {
   font: 1.2rem "DM Sans", sans-serif;
 }
 
-#header-logo {
-  width: 95%;
-  height: auto;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-#header-title {
-  font: 8vw "Amatic SC", cursive;
-  margin-top: 0;
-  margin-bottom: 0;
-  position: absolute;
-  left: 45px;
+.inline-nav {
+  list-style: none;
+  display: inline-block;
 }
 
 .clickable:not(.active):hover {
   color: #4d4d4d;
+}
+
+.blog-post-text {
+  font: 1.2rem "DM Sans", sans-serif;
+  text-align: justify;
 }

@@ -1,15 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
+#header-logo {
+  width: 95%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#header-title {
+  font: 8vw "Amatic SC", cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  left: 45px;
+}
+
 .header-nav {
-  list-style: none;
   margin: 0px;
   text-align: right;
   font: 35px "Abel", sans-serif;
 }
 
 .header-nav>a {
-  display: inline-block;
   color: #313131;
   padding: 10px 30px 2px 0px;
   text-decoration: none;
+}
+
+.footer-cont {
+  margin: 25px;
+  min-width: 1000px;
+}
+
+.footer-links {
+  list-style: none;
+  color: #313131;
+  padding: 6px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

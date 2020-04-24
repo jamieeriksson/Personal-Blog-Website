@@ -7,7 +7,7 @@
   <body>
     <div class="page">
       <div class="header">
-        <p id="header-title">Jamie Plays Frisbee</p>
+        <h1 id="header-title">Jamie Plays Frisbee</h1>
         <svg
           id="header-logo"
           width="1367"
@@ -69,16 +69,16 @@
           </defs>
         </svg>
         <div class="header-nav">
-          <a class="clickable" href="index.html">Home</a>
-          <a class="clickable" href="index.html">About Me</a>
-          <a class="clickable" href="index.html">Pages</a>
-          <a class="clickable" href="index.html">Contact</a>
+          <a class="inline-nav clickable" href="index.html">Home</a>
+          <a class="inline-nav clickable" href="index.html">About Me</a>
+          <a class="inline-nav clickable" href="index.html">Pages</a>
+          <a class="inline-nav clickable" href="index.html">Contact</a>
         </div>
       </div>
       <div class="main-content">
         <div class="author-card">
-          <img src="disc_pile_jpf.JPG" />
-          <p class="author-card-title">Jamie Eriksson</p>
+          <img src="disc_pile_jpf.JPG" alt="Author with pile of frisbees" />
+          <h1 class="author-card-title">Jamie Eriksson</h1>
           <p class="author-card-content">
             I grew up in Dallas, TX where I also attended the University of
             Texas at Dallas to pursue a BS in Mechanical Engineering. It was
@@ -87,9 +87,12 @@
             college ultimate, and 4 years of club ultimate where I have attended
             club Nationals twice.
           </p>
-          <p class="author-card-footer author-cont-reading clickable">
+          <a
+            class="author-card-footer author-cont-reading clickable"
+            href="blog_post_1.html"
+          >
             More About the Author
-          </p>
+          </a>
         </div>
         <div class="blog-post">
           <h1 class="blog-post-title">The Pains of Burnout</h1>
@@ -130,11 +133,30 @@
             feel pretty darned lucky. #HSPathlete
           </p>
           <div class="social-sharing">
-            Share this post on: <button type="button">Facebook</button>
-            <button type="button">Instagram</button>
-            <button type="button">Twitter</button>
-            <button type="button">LinkedIn</button>
+            Share this post on:
+            <button type="button" class="social-sharing">Facebook</button>
+            <button type="button" class="social-sharing">Instagram</button>
+            <button type="button" class="social-sharing">Twitter</button>
+            <button type="button" class="social-sharing">LinkedIn</button>
           </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-cont">
+          <ul class="labels">
+            <li class="footer-links clickable">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="footer-links clickable">
+              <a href="index.html">About Me</a>
+            </li>
+            <li class="footer-links clickable">
+              <a href="index.html">Pages</a>
+            </li>
+            <li class="footer-links clickable">
+              <a href="index.html">Content</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

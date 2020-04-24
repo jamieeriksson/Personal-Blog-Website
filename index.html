@@ -7,7 +7,7 @@
   <body>
     <div class="page">
       <div class="header">
-        <p id="header-title">Jamie Plays Frisbee</p>
+        <h1 id="header-title">Jamie Plays Frisbee</h1>
         <svg
           id="header-logo"
           width="1367"
@@ -69,63 +69,82 @@
           </defs>
         </svg>
         <div class="header-nav">
-          <a class="clickable" href="index.html">Home</a>
-          <a class="clickable" href="index.html">About Me</a>
-          <a class="clickable" href="index.html">Pages</a>
-          <a class="clickable" href="index.html">Contact</a>
+          <a class="inline-nav clickable" href="index.html">Home</a>
+          <a class="inline-nav clickable" href="index.html">About Me</a>
+          <a class="inline-nav clickable" href="index.html">Pages</a>
+          <a class="inline-nav clickable" href="index.html">Contact</a>
         </div>
       </div>
       <div class="main-content">
-        <ul id="categories-cont" class="categories labels">
-          <li class="clickable active">All</li>
-          <li class="clickable">Workouts</li>
-          <li class="clickable">Throwing</li>
-          <li class="clickable">Tournaments</li>
-          <li class="clickable">Teams</li>
-        </ul>
+        <div id="categories-cont" class="categories labels">
+          <a class="inline-nav clickable active" href="index.html">All</a>
+          <a class="inline-nav clickable" href="index.html">Workouts</a>
+          <a class="inline-nav clickable" href="index.html">Throwing</a>
+          <a class="inline-nav clickable" href="index.html">Tournaments</a>
+          <a class="inline-nav clickable" href="index.html">Teams</a>
+        </div>
         <div id="blog-card-container">
-          <p class="blog-date">April 16th, 2020</p>
+          <h2 class="blog-date">February 23rd, 2020</h2>
           <div class="blog-card">
-            <img src="green_grass_jpf.JPG" />
-            <p class="card-title">We Love Adversity</p>
-            <p class="card-content">
-              We love adversity 👏🏼 I love adversity 👏🏼 I got food poisoning (or
-              a stomach virus I’m not sure) on Monday night and it was awful and
-              it threw my whole week out of whack, but we love adversity, so
-              it’s all good. I had to take Monday and Tuesday completely off but
-              felt 100% again by . . .
-            </p>
-            <p class="card-footer cont-reading clickable">Continue Reading</p>
-          </div>
-          <p class="blog-date">February 23rd, 2020</p>
-          <div class="blog-card">
-            <img src="sunset_discs_jpf.png" />
-            <p class="card-title">The Pains of Burnout</p>
-            <p class="card-content">
+            <img
+              src="sunset_discs_jpf.png"
+              alt="Author at field with frisbees during a sunset"
+            />
+            <h3 class="card-title">The Pains of Burnout</h3>
+            <p class="blog-post-text card-content">
               Been dealing with a little bit of burnout but have been doing my
               best to take care of myself so that I can get back into things
               strongly again. I’ve been working on some throwing form
               adjustments. I tweaked my forehand grip and have been working on
               my arm mechanics . . .
             </p>
-            <p class="card-footer cont-reading clickable">Continue Reading</p>
+            <a
+              class="card-footer cont-reading clickable"
+              href="blog_post_1.html"
+              >Continue Reading</a
+            >
           </div>
-          <p class="blog-date">January 5th, 2020</p>
+          <h2 class="blog-date">January 5th, 2020</h2>
           <div class="blog-card">
-            <img src="bigbend_jpf.png" />
-            <p class="card-title">Big Bend National Park</p>
-            <p class="card-content">
+            <img
+              src="green_grass_jpf.JPG"
+              alt="Author in grass field with pile of frisbees"
+            />
+            <h3 class="card-title">We Love Adversity</h3>
+            <p class="blog-post-text card-content">
+              We love adversity 👏🏼 I love adversity 👏🏼 I got food poisoning (or
+              a stomach virus I’m not sure) on Monday night and it was awful and
+              it threw my whole week out of whack, but we love adversity, so
+              it’s all good. I had to take Monday and Tuesday completely off but
+              felt 100% again by . . .
+            </p>
+            <a class="card-footer cont-reading clickable" href="index.html"
+              >Continue Reading</a
+            >
+          </div>
+          <h2 class="blog-date">December 17th, 2019</h2>
+          <div class="blog-card">
+            <img
+              src="bigbend_jpf.png"
+              alt="Author backpacking along trail at Big Bend National Park"
+            />
+            <h3 class="card-title">Big Bend National Park</h3>
+            <p class="blog-post-text card-content">
               Did a different kind of workout this weekend by backpacking the
               Outer Mountain Loop at Big Bend National Park with my PE teammate
               Helen. I most definitely got some good glute activation and muscle
               endurance work in with carrying a pack across the 30 miles and an
               accumulated total . . .
             </p>
-            <p class="card-footer cont-reading clickable">Continue Reading</p>
+            <a class="card-footer cont-reading clickable" href="index.html"
+              >Continue Reading</a
+            >
           </div>
         </div>
         <div class="change-page">
-          <span class="previous-post clickable">Previous Posts...</span>
+          <a class="previous-post clickable" href="index.html"
+            >Previous Posts...</a
+          >
           <svg
             class="clickable"
             width="29"
@@ -142,7 +161,22 @@
         </div>
       </div>
       <div class="footer">
-        wow
+        <div class="footer-cont">
+          <ul class="labels">
+            <li class="footer-links clickable">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="footer-links clickable">
+              <a href="index.html">About Me</a>
+            </li>
+            <li class="footer-links clickable">
+              <a href="index.html">Pages</a>
+            </li>
+            <li class="footer-links clickable">
+              <a href="index.html">Content</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
