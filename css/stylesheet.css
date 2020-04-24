@@ -1,6 +1,7 @@
 @import "./main_content.css";
 @import "./header.css";
 @import "./blog-cards.css";
+@import "./blog-post-page.css";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
@@ -14,10 +15,7 @@ body {
   margin: 0;
   display: grid;
   grid:
-    "header header" auto
-    "main sidebar" auto
-    "footer footer" auto
-    / 4fr 1fr;
+    "header header"auto "main sidebar"auto "footer footer"auto / 4fr 1fr;
   grid-gap: 2em;
 }
 
