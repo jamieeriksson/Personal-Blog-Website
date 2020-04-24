@@ -6,7 +6,7 @@
   border-radius: 30px;
   width: 90%;
   height: 15rem;
-  margin: 0px 30px 50px 30px;
+  margin: 30px 30px 50px 30px;
 
   display: grid;
   grid-row: auto 3fr 1fr;
@@ -59,4 +59,32 @@
   line-height: 1.7em;
   text-decoration: underline;
   /* border-top: 2px solid #1a7474; */
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.blog-post-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-post-text {
+  font: 1.2rem "DM Sans", sans-serif;
+  text-align: justify;
+  margin: 3rem;
+}
+
+.blog-post-imgs>img {
+  max-width: 30%;
+  margin: 0.5rem;
 }
