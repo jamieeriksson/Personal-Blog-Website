@@ -2,24 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Strait&display=swap");
 
 #categories-cont {
+  order: 1;
   margin: 25px;
   border-bottom: 2px solid #1a7474;
   text-align: right;
 }
 
-.categories>a {
+.categories>li {
   color: #797979;
+  /* font: 1.2rem "DM Sans", sans-serif; */
   padding: 6px 20px;
   text-decoration: none;
 }
 
 .categories>.active {
   color: #202020;
-}
-
-#categories-cont {
-  order: 1;
-  /* height: 15%; */
 }
 
 #blog-card-container {
@@ -104,4 +101,20 @@
   color: #313131;
   line-height: 2.5rem;
   margin-right: 0.3rem;
+}
+
+#categories-cont select {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #categories-cont ul {
+    display: none;
+  }
+
+  #categories-cont select {
+    display: inline-block;
+    font: 0.9rem "DM Sans", sans-serif;
+    margin-bottom: 0.3rem;
+  }
 }

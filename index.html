@@ -68,21 +68,61 @@
             </filter>
           </defs>
         </svg>
-        <nav class="header-nav">
-          <a class="inline-nav clickable" href="index.html">Home</a>
-          <a class="inline-nav clickable" href="index.html">About Me</a>
-          <a class="inline-nav clickable" href="index.html">Pages</a>
-          <a class="inline-nav clickable" href="index.html">Contact</a>
+        <nav>
+          <ul class="header-nav">
+            <li class="inline-nav clickable">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="inline-nav clickable">
+              <a href="index.html">About Me</a>
+            </li>
+            <li class="inline-nav clickable">
+              <a href="index.html">Pages</a>
+            </li>
+            <li class="inline-nav clickable">
+              <a href="index.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="dropdown">
+            <button class="dropdown-btn">Navigation</button>
+            <div class="dropdown-links">
+              <a href="index.html">Home</a>
+              <a href="index.html">About Me</a>
+              <a href="index.html">Pages</a>
+              <a href="index.html">Contact</a>
+            </div>
+          </div>
         </nav>
       </div>
       <div class="main-content">
         <div id="categories-cont" class="categories labels">
-          <a class="inline-nav clickable active" href="index.html">All</a>
-          <a class="inline-nav clickable" href="index.html">Workouts</a>
-          <a class="inline-nav clickable" href="index.html">Throwing</a>
-          <a class="inline-nav clickable" href="index.html">Tournaments</a>
-          <a class="inline-nav clickable" href="index.html">Teams</a>
+          <ul>
+            <li class="inline-nav clickable active">
+              <a href="index.html">All</a>
+            </li>
+            <li class="inline-nav clickable">
+              <a href="index.html">Workouts</a>
+            </li>
+            <li class="inline-nav clickable">
+              <a href="index.html">Throwing</a>
+            </li>
+            <li class="inline-nav clickable">
+              <a href="index.html">Tournaments</a>
+            </li>
+            <li class="inline-nav clickable"><a href="index.html">Teams</a></li>
+          </ul>
+
+          <select>
+            <option value="" selected="selected">All</option>
+
+            <option value="index.html">Workouts</option>
+            <option value="index.html">Throwing</option>
+            <option value="index.html">Tournaments</option>
+            <option value="index.html">Teams</option>
+          </select>
         </div>
+
         <div id="blog-card-container">
           <h2 class="blog-date">February 23rd, 2020</h2>
           <div class="blog-card">
