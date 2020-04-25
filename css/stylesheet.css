@@ -64,3 +64,9 @@ body {
   font: 1.2rem "DM Sans", sans-serif;
   text-align: justify;
 }
+
+@media (max-width 700px) {
+  .main-content {
+    max-width: 700px;
+  }
+}
