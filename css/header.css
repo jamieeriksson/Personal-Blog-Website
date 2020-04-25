@@ -49,6 +49,14 @@ nav div {
 }
 
 @media (max-width:700px) {
+  #header-title {
+    font-size: 3.5rem;
+  }
+
+  #header-logo {
+    margin-top: 1.5rem;
+  }
+
   nav ul {
     display: none;
   }
