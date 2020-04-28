@@ -1,5 +1,5 @@
 @import "./main_content.css";
-@import "./header.css";
+@import "./header_footer.css";
 @import "./blog-post-page.css";
 /* @import "./dropdown.css"; */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
@@ -72,7 +72,7 @@ footer {
 }
 
 @media (max-width: 769px) {
-  .main-content {
+  section {
     max-width: 769px;
   }
 }
