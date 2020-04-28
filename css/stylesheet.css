@@ -64,6 +64,13 @@ footer {
   text-align: justify;
 }
 
+.subscribe {
+  order: 4;
+  align-self: center;
+  font: 1rem "Strait", sans-serif;
+  margin: 0.5rem;
+}
+
 @media (max-width: 769px) {
   .main-content {
     max-width: 769px;
