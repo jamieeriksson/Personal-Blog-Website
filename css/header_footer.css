@@ -15,7 +15,7 @@
   left: 45px;
 }
 
-.header-nav {
+#header-nav {
   margin: 0px;
   text-align: right;
   font: 35px "Abel", sans-serif;
@@ -44,7 +44,7 @@ a {
   color: inherit;
 }
 
-nav div {
+nav .dropdown {
   display: none;
 }
 

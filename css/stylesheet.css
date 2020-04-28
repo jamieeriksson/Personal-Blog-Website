@@ -46,10 +46,6 @@ footer {
   align-items: center;
 }
 
-.labels {
-  font: 1.2rem "DM Sans", sans-serif;
-}
-
 .inline-nav {
   list-style: none;
   display: inline-block;

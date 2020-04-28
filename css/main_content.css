@@ -1,20 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Strait&display=swap");
 
-#categories-cont {
+.categories-container {
   order: 1;
   margin: 25px;
   border-bottom: 2px solid #1a7474;
   text-align: right;
+  font: 1.2rem "DM Sans", sans-serif;
 }
 
-.categories ul li {
+/* .categories {
+  font: 1.2rem "DM Sans", sans-serif;
+} */
+
+.categories-container ul li {
   color: #797979;
   padding: 6px 10px;
   text-decoration: none;
 }
 
-.categories>.active {
+.categories-container .active {
   color: #202020;
 }
 
@@ -71,7 +76,7 @@
   margin-left: 1.7rem;
 }
 
-.cont-reading {
+.continue-reading {
   text-align: right;
   font: 1.2rem "Strait", sans-serif;
   line-height: 1.7em;
@@ -102,16 +107,16 @@
   margin-right: 0.3rem;
 }
 
-#categories-cont select {
+.categories-container select {
   display: none;
 }
 
 @media (max-width: 769px) {
-  #categories-cont ul {
+  .categories-container ul {
     display: none;
   }
 
-  #categories-cont select {
+  .categories-container select {
     display: inline-block;
     font: 0.9rem "DM Sans", sans-serif;
     margin-bottom: 0.3rem;
