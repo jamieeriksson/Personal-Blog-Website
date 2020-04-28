@@ -16,7 +16,7 @@
   min-width: 810px;
 }
 
-.author-card>img {
+.author-card img {
   grid-area: 1/2/4/3;
   object-fit: cover;
   min-width: 100%;
@@ -57,7 +57,7 @@
   text-decoration: underline;
 }
 
-.blog-post {
+article {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -87,4 +87,33 @@
 
 .social-sharing {
   font: 1rem "Strait", sans-serif;
+}
+
+@media (max-width: 769px) {
+  .author-card {
+    min-width: 200px;
+    height: auto;
+    align-self: center;
+    margin: 10px 10px 0 10px;
+    grid-column: 1fr;
+  }
+
+  .author-card img {
+    display: none;
+  }
+
+  .author-card-title {
+    grid-area: 1/1/2/2;
+    margin: 0;
+  }
+
+  .author-card-content {
+    grid-area: 2/1/3/2;
+    margin: 0;
+  }
+
+  .author-card-footer {
+    grid-area: 3/1/4/2;
+    margin: 0;
+  }
 }

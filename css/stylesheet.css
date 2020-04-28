@@ -18,12 +18,12 @@ body {
   grid-gap: 2em;
 }
 
-.header {
+header {
   grid-area: header;
   background: #a68d9e;
 }
 
-.main-content {
+section {
   grid-area: main;
   max-width: 1050px;
   margin-left: 1rem;
@@ -38,7 +38,7 @@ body {
   align-items: stretch;
 }
 
-.footer {
+footer {
   grid-area: footer;
   background: #a2aca1;
   display: flex;
