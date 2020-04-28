@@ -8,10 +8,9 @@
   text-align: right;
 }
 
-.categories>li {
+.categories ul li {
   color: #797979;
-  /* font: 1.2rem "DM Sans", sans-serif; */
-  padding: 6px 20px;
+  padding: 6px 10px;
   text-decoration: none;
 }
 
@@ -107,7 +106,7 @@
   display: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 769px) {
   #categories-cont ul {
     display: none;
   }
